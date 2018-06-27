@@ -1,6 +1,7 @@
 {
-  "name": "smart-dashboard",
-  "description": "SMART on FHIR Dashboard Manager",
+  "name": "material-dashboard-react",
+  "version": "1.2.0",
+  "description": "Material Dashboard React. Coded by Creative Tim",
   "private": false,
   "main": "index.js",
   "dependencies": {
@@ -29,15 +30,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devmikey/smart-dashboard.git"
+    "url": "git+https://github.com/creativetimofficial/material-dashboard-react.git"
   },
   "keywords": [],
-  "author": "Mike Smith",
+  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/devmikey/smart-dashboard/issues"
+    "url": "https://github.com/creativetimofficial/material-dashboard-react/issues"
   },
-  "homepage": "https://github.com/devmikey/smart-dashboard",
-  "version": "1.0.0",
-  "devDependencies": {}
+  "homepage": "https://creativetimofficial.github.io/material-dashboard-react/#/dashboard"
 }
