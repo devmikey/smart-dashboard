@@ -22,6 +22,9 @@ import UpgradeToPro from "views/UpgradeToPro/UpgradeToPro.jsx";
 
 
 import RecordPage from "views/Record/Record.jsx";
+import ManagementPage from "views/Management/Management.jsx";
+import NewApplicationPage from "views/Management/New.jsx";
+
 
 
 const dashboardRoutes = [
@@ -54,6 +57,21 @@ const dashboardRoutes = [
     component: TableList
   },
   {
+    path: "/management",
+    sidebarName: "Management",
+    navbarName: "SMART Application Management",
+    icon: Extension,
+    component: ManagementPage
+  },
+  {
+    path: "/newapp",
+    sidebarName: "New",
+    navbarName: "New Application",
+    icon: Extension,
+    component: NewApplicationPage,
+    invisible: true
+  },
+  {
     path: "/user",
     sidebarName: "User Profile",
     navbarName: "Profile",
@@ -74,7 +92,7 @@ const dashboardRoutes = [
     icon: Unarchive,
     component: UpgradeToPro
   },
-  { redirect: true, path: "/", to: "/dashboard", navbarName: "Redirect" }
+  { redirect: true, path: "/", to: "/dashboard", navbarName: "Redirect" }  
 ];
 
 export default dashboardRoutes;
