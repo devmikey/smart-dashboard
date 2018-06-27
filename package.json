@@ -37,7 +37,7 @@
   "bugs": {
     "url": "https://github.com/devmikey/smart-dashboard/issues"
   },
-  "homepage": "https://github.com/devmikey/smart-dashboard#readme",
+  "homepage": "https://github.com/devmikey/smart-dashboard",
   "version": "1.0.0",
   "devDependencies": {}
 }
